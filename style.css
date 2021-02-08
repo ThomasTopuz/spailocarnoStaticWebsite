@@ -74,15 +74,19 @@ CONTENT
     margin-bottom: 10px;
 }
 .content .left{
-    height: 570px;
+    height: 530px;
     width:250px;
     border: 1px solid black;
     background-color: #FCFCFC;
 
 }
 .content .right {
+    background-image: url("./content_bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 480pt;
     border: 1px solid black;
-    height:650px;
+    height:550px;
     width: 620px;
     background-color: #FCFCFC;
     padding:10px;
