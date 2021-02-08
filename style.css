@@ -1,0 +1,132 @@
+* {
+    margin:0;
+    padding:0;
+    
+}
+body {
+    background-color: rgb(224, 231, 231);
+}
+
+.container {
+    padding: 0.7rem;
+    margin: 0 auto;
+    width: 912px;
+    height:auto;
+    border: 1px solid black;
+    background-color:white;
+}
+
+.header {
+    padding: 1rem;
+    width: 100%x;
+    height: 200px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url("/header_bg.jpg");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color: #FEFDFD;
+    background-size: 280pt;
+    border: 1px solid #a7adbb;
+}
+.header div {
+    font-size: 50pt;
+    color: #798196;
+    font-weight: bold;
+    font-style: italic;
+}
+
+/***************
+NAVBAR
+***************/
+.nav {
+    display: flex;
+    flex-direction: row;
+    padding: 6px;
+    background-color: #646675;
+    height: 55px;
+    margin-top: 1rem;
+}
+
+.nav-item {
+    color: rgb(172, 167, 167);
+    display: flex;
+    align-items: center;
+    border: 2px solid rgb(148, 142, 142);
+    padding:5px;
+    margin-right: 6px;
+}
+
+.nav-item:hover {
+    border: 2px solid white;
+    color: white;
+}
+/***************
+CONTENT
+***************/
+.content {
+    display: flex;
+    margin-top: 10px;
+    flex-direction: row;
+    width:100%;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.content .left{
+    height: 570px;
+    width:250px;
+    border: 1px solid black;
+    background-color: #FCFCFC;
+
+}
+.content .right {
+    border: 1px solid black;
+    height:650px;
+    width: 620px;
+    background-color: #FCFCFC;
+    padding:10px;
+}
+
+/***************
+LEFT
+***************/
+.left-item{
+    padding:5px;
+}
+.left-item .title{
+    border: 1px dotted black;
+    padding:8px;
+    background-color: #F3F3F3;
+    color:#7E0000;
+    font-weight: Bolder;
+}
+.left-item .content{
+    padding: 5px;
+}
+/***************
+RIGHT
+***************/
+.right .title {
+    padding:5px;
+    border: 1px solid black;
+    color: #ABB0BD;
+    font-weight: bold;
+}
+.right .content{
+    padding: 5px;   
+}
+.right-item {
+    margin-bottom: 20px;
+}
+/***************
+FOOTER
+***************/
+.footer{
+    background-color: #646675;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
